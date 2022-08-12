@@ -104,6 +104,9 @@ $result = $Calculator->calculate($expression);
 					<div class="btn btn-secondary calculator-button">9</div>
 				</div>
 				<!-- etc -->
+				<div class="calculator-row">
+					<button type="submit" class="btn btn-primary">=</button>
+				</div>
 			</div>
 		</div>
 	</body>
