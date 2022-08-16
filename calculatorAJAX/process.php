@@ -38,9 +38,9 @@ class Field_calculate {
     }
 
     private function compute($input){
-        $compute = create_function('', 'return '.$input.';');
+        //$compute = create_function('', 'return '.$input.';');
 
-        return 0 + $compute();
+        return 0 + eval("return $input;");
     }
 
     private function callback($input){
